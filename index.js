@@ -8,7 +8,6 @@ import { watchFile, unwatchFile } from 'fs'
 import cfonts from 'cfonts';
 import { createInterface } from 'readline'
 import Helper from './lib/helper.js'
-import fetch from 'node-fetch';
 import { token as expectedToken } from './token.js';
 
 const __dirname = dirname(fileURLToPath(import.meta.url))
